@@ -5910,3 +5910,10 @@ b    2
 c    1
 dtype: int64
 ```
+### Matplotlib and Seaborn
+
+Matplotlib and Seaborn Assignment are in jupyter notebook [Notebook Link](https://github.com/kgcodex/SmartBridge_EPBL/blob/main/assignment_notebooks/Assignment3.ipynb)
+
+## Assignment 4: Problem Solving using Numpy Pandas Matplotlib
+
+Assignment 4 is in jupyter notebook [Notebook Link](https://github.com/kgcodex/SmartBridge_EPBL/blob/main/assignment_notebooks/Assignment4.ipynb)
