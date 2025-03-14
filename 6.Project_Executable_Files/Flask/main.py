@@ -1,10 +1,9 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 import os
 from werkzeug.utils import secure_filename
-from predict import predict_rice_type  # Import your prediction function
+from predict import predict_rice_type 
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'  # Replace with a strong secret key
 
 # Configure the uploads folder (we store uploaded images in 'static/uploads')
 UPLOAD_FOLDER = os.path.join('static', 'uploads')
@@ -16,7 +15,6 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 def index():
     return render_template('index.html')
 
-# You can serve your team/contact page at /contact or /details.html as needed.
 @app.route('/contact')
 @app.route('/details.html')
 def contact():
